@@ -3,3 +3,82 @@ DB jméno: admin
 e-mail admin@admin.cz
 pas: bronekadmin
 
+Zadání:
+https://materials.itstep.org/content/09a39a04-d227-4ca7-961c-b5caeae4c839/en/?cache=0
+
+vypracujte TASK 1, 2, 3
+
+vytvorte si model pre book a writer
+vytvorte stranku kde budem mať zoznam autorov s možnosťou nakliknuť sa na detail
+vytvorte stránku kde budem mať zoznam knih s možnosťou nakliknuť sa na detail
+
+
+EN:
+Task 1
+
+Using the routing mechanism, create a web app that outputs information about writers. The app should have the following sections:
+
+Main,
+Writers,
+Best Books.
+Different sections must be accessed via different addresses. For instance, if the user enters 127.0.0.1:8000, the Main section should open. If 127.0.0.1:8000/writers is entered, the Writers section should open. If 127.0.0.1:8000/books, the Best Books section should open.
+
+Task 2
+
+Add the ability to process the following requests to the project from Task 1:
+
+127.0.0.1:8000/writers/Hemingway should open a page with information about Hemingway.
+127.0.0.1:8000/writers/Shakespeare should open a page with information about Shakespeare.
+If there is no info about the specified writer in your app, redirect the user to the Writers section.
+
+Task 3
+
+Add the ability to process the following requests to the project from Task 1:
+
+127.0.0.1:8000/books/1 should open a page with information about the book that ranks first.
+127.0.0.1:8000/books/3 should open a page with information about the book that ranks third.
+If there is no such place in your list, redirect to the Best Books section.
+
+Task 4
+
+Add the ability to process the following requests to the project from Task 1:
+
+127.0.0.1:8000/writers/Hemingway/The_Old_Man_and_the_Sea should open a page with information about the book The Old Man and the Sea.
+127.0.0.1:8000/writers/Hemingway/The_Sun_Also_Rises should open a page with information about the book The Sun Also Rises.
+If there is no information about the entered book, redirect to the writer's page (in our example, it is the Hemingway page).
+
+Task 5
+
+Add the ability to process the following requests to the project from Task 1:
+
+127.0.0.1:8000/writers/?writers=Hemingway&year=1926 should open a page with information about books written by Hemingway in 1926.
+127.0.0.1:8000/cities/?writers=Hemingway&year=1940 should open a page with information about books written by Hemingway in 1940.
+If there is no information about the entered year, redirect to the writer's page (in our example, it is the Hemingway page).
+
+
+CZ
+Úkol 1
+
+Pomocí mechanismu směrování vytvořte webovou aplikaci, která vydává informace o autorech. Aplikace by měla obsahovat následující sekce:
+
+Hlavní,
+spisovatelé,
+Nejlepší knihy.
+Různé sekce musí být přístupné přes různé adresy. Pokud například uživatel zadá 127.0.0.1:8000, měla by se otevřít sekce Main. Pokud je zadáno 127.0.0.1:8000/writers, měla by se otevřít sekce Writers. Pokud 127.0.0.1:8000/knihy, měla by se otevřít sekce Nejlepší knihy.
+
+Úkol 2
+
+Přidejte do projektu možnost zpracovávat následující požadavky z úkolu 1:
+
+127.0.0.1:8000/writers/Hemingway by měl otevřít stránku s informacemi o Hemingwayovi.
+127.0.0.1:8000/writers/Shakespeare by si měl otevřít stránku s informacemi o Shakespearovi.
+Pokud ve vaší aplikaci nejsou žádné informace o zadaném autorovi, přesměrujte uživatele do sekce Autoři.
+
+Úkol 3
+
+Přidejte do projektu možnost zpracovávat následující požadavky z úkolu 1:
+
+127.0.0.1:8000/books/1 by měl otevřít stránku s informacemi o knize, která je na prvním místě.
+127.0.0.1:8000/books/3 by měl otevřít stránku s informacemi o knize, která je na třetím místě.
+Pokud takové místo ve vašem seznamu není, přesměrujte se do sekce Nejlepší knihy.
+
