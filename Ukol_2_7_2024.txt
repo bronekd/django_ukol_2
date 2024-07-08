@@ -1,0 +1,5 @@
+
+DB jméno: admin
+e-mail admin@admin.cz
+pas: bronekadmin
+
